@@ -1,213 +1,128 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-arcgis=1.8.1=py36_1274
-arcgispro=2.6=0
-argon2-cffi=20.1.0=py36h2bbff1b_1
-asn1crypto=1.4.0=py_0
-atomicwrites=1.4.0=py_0
-attrs=20.3.0=pyhd3deb0d_0
-backcall=0.2.0=pyhd3eb1b0_0
-blas=1.0=mkl
-bleach=3.3.0=pyhd3eb1b0_0
-blinker=1.4=py36_0
-brotlipy=0.7.0=py36h2bbff1b_1003
-bzip2=1.0.8=he774522_0
-ca-certificates=2020.12.5=h5b45459_0
-certifi=2020.12.5=py36ha15d459_1
-cffi=1.14.5=py36hcd4344a_0
-cfitsio=3.470=he774522_6
-cftime=1.0.0b1=py36_0
-chardet=4.0.0=py36haa95532_1003
-click=7.1.2=pyhd3eb1b0_0
-click-plugins=1.1.1=py_0
-cligj=0.7.1=py36haa95532_0
-colorama=0.4.4=pyhd3eb1b0_0
-cppzmq=4.3.0=1
-cryptography=2.8=py36_0
-curl=7.67.0=h2a8f88b_0
-cycler=0.10.0=py36haa95532_0
-decorator=4.4.2=pyhd3eb1b0_0
-defusedxml=0.7.1=pyhd3eb1b0_0
-despatch=0.1.0=pypi_0
-entrypoints=0.3=py36_0
-et_xmlfile=1.0.1=py36h3d2d736_0
-expat=2.3.0=h6c2663c_2
-fastcache=1.1.0=py36he774522_0
-fiona=1.8.13.post1=py36hd760492_0
-freetype=2.9.1=h563cfd7_1006
-freexl=1.0.6=h2bbff1b_0
-future=0.18.2=py36_0
-gdal=2.3.3=arcgispro_16225
-geopandas=0.9.0=pyhd8ed1ab_0
-geos=3.8.0=h33f27b4_0
-geotiff=1.5.1=h5770a2b_1
-h3=3.6.3=he025d50_0
-h3-py=3.7.0=py36h003fed8_0
-h5py=2.10.0=py36_arcgispro_2
-hdf4=4.2.13=h712560f_2
-hdf5=1.10.4=h7ebc959_0
-html5lib=1.1=py_0
-icc_rt=2019.0.5=arcgispro_0
-icu=58.2=ha925a31_3
-idna=2.10=pyhd3eb1b0_0
-importlib-metadata=3.7.3=py36haa95532_1
-importlib_metadata=3.7.3=hd3eb1b0_1
-iniconfig=1.1.1=pyhd3eb1b0_0
-intel-openmp=2020.3=h57928b3_311
-ipykernel=5.3.4=py36h5ca1d4c_0
-ipython=7.16.1=py36h5ca1d4c_0
-ipython_genutils=0.2.0=pyhd3eb1b0_1
-ipywidgets=7.6.3=pyhd3eb1b0_1
-jdcal=1.4.1=py_0
-jedi=0.16.0=py36_0
-jinja2=2.11.3=pyhd3eb1b0_0
-jpeg=9d=0
-json5=0.9.4=py36_0
-jsonschema=3.2.0=py_2
-jupyter_client=6.1.7=py_0
-jupyter_console=6.1.0=py36_0
-jupyter_core=4.6.3=py36_2
-jupyterlab=2.0.1=py36_0
-jupyterlab_server=1.1.0=py_0
-jupyterlab_widgets=1.0.0=pyhd3eb1b0_1
-kealib=1.4.7=h07cbb95_6
-keyring=21.2.0=py36_0
-kiwisolver=1.3.1=py36hd77b12b_0
-krb5=1.16.4=hc04afaa_0
-lerc=2.2=py_0
-libblas=3.9.0=1_h8933c1f_netlib
-libboost=1.67.0=hd9e427e_4
-libcblas=3.9.0=3_hd5c7e75_netlib
-libcurl=7.67.0=h2a8f88b_0
-libgdal=3.0.2=h1155b67_0
-libiconv=1.15=h1df5818_7
-libkml=1.3.0=he5f2a48_4
-liblapack=3.9.0=3_hd5c7e75_netlib
-libnetcdf=4.6.1=h411e497_2
-libpng=1.6.37=h1d00b33_2
-libpq=11.2=h3235a2c_0
-libsodium=1.0.18=1
-libspatialindex=1.9.3=h6c2663c_0
-libspatialite=4.3.0a=h7ffb84d_0
-libssh2=1.9.0=h7a1dbc1_1
-libtiff=4.1.0=h56a325e_0
-libxml2=2.9.10=arcgispro_0
-lz4-c=1.8.1.2=h2fa13f4_0
-m2w64-expat=2.1.1=2
-m2w64-gcc-libgfortran=5.3.0=6
-m2w64-gcc-libs=5.3.0=7
-m2w64-gcc-libs-core=5.3.0=7
-m2w64-gettext=0.19.7=2
-m2w64-gmp=6.1.0=2
-m2w64-libiconv=1.14=6
-m2w64-libwinpthread-git=5.0.0.4634.697f757=2
-m2w64-xz=5.2.2=2
-markupsafe=1.1.1=py36he774522_0
-matplotlib=3.2.1=py36_0e
-mistune=0.8.4=py36he774522_0
-mkl=2019.5=arcgispro_166
-mkl-service=2.3.0=py36hfa6e2cd_0
-mkl_fft=1.3.0=py36h46781fe_0
-mkl_random=1.1.0=py36h675688f_0
-more-itertools=8.7.0=pyhd3eb1b0_0
-mpmath=1.2.1=py36haa95532_0
-msys2-conda-epoch=20160418=1
-munch=2.5.0=py_0
-nbconvert=5.6.1=py36_0
-nbformat=5.0.7=py_1
-netcdf4=1.5.3=py36_arcgispro_2
-networkx=2.5=py36_0
-nlohmann_json=3.7.0=1
-nose=1.3.7=pyhd3eb1b0_1006
-notebook=6.1.4=py36_1
-ntlm-auth=1.4.0=py_0
-numexpr=2.7.1=py36h054117c_0
-numpy=1.18.1=py36h48dd78f_1
-numpy-base=1.18.5=py36hc3f5095_0
-oauthlib=3.1.0=py_0
-openjpeg=2.3.0=h5ec785f_1
-openpyxl=3.0.3=py_0
-openssl=1.1.1k=h8ffe710_0
-packaging=20.9=pyhd3eb1b0_0
-pandas=1.1.5=py36he38d939_0
-pandocfilters=1.4.3=py36haa95532_1
-parso=0.8.2=pyhd3eb1b0_0
-pcre=8.44=ha925a31_0
-pickleshare=0.7.5=pyhd3eb1b0_1003
-pip=21.0.1=pyhd8ed1ab_0
-pluggy=0.13.1=py36haa95532_0
-postgresql=11.2=h3235a2c_0
-pro_notebook_integration=2.6=py36_4
-proj=6.2.1=h9f7ef89_0
-prometheus_client=0.8.0=py_0
-prompt-toolkit=3.0.5=pyha847dfd_0
-prompt_toolkit=3.0.5=py_0
-psutil=5.8.0=py36h2bbff1b_1
-py=1.10.0=pyhd3eb1b0_0
-pybind11=2.3.0=1
-pycparser=2.20=py_2
-pygments=2.7.0=py_0
-pyjwt=1.7.1=py36_0
-pyopenssl=20.0.1=pyhd3eb1b0_1
-pyparsing=2.4.7=pyhd3eb1b0_0
-pypdf2=1.26.0=py_2
-pyproj=2.6.1.post1=py36h593ac45_1
-pyrsistent=0.17.3=py36he774522_0
-pyshp=2.1.0=py_0
-pysocks=1.7.1=py36haa95532_0
-pytest=6.1.1=py36_0
-python=3.6.10=1
-python-dateutil=2.8.1=py_0
-python_abi=3.6=1_cp36m
-pytz=2021.1=pyhd8ed1ab_0
-pywin32-ctypes=0.2.0=py36_0
-pywin32-security=227=py36_1
-pywinpty=0.5.7=py36_0
-pyzmq=19.0.2=py36_1
-requests=2.25.1=pyhd3eb1b0_0
-requests-kerberos=0.12.0=0
-requests-oauthlib=1.3.0=py_0
-requests-toolbelt=0.9.1=py_0
-requests_ntlm=1.1.0=py_0
-rtree=0.9.4=py36h21ff451_1
-scipy=1.5.2=py36h9439919_0
-send2trash=1.5.0=pyhd3eb1b0_1
-setuptools=49.6.0=py36ha15d459_3
-shapely=1.7.1=py36h210f175_0
-simplegeneric=0.8.1=py36_2
-six=1.15.0=pyh9f0ad1d_0
-sqlite=3.35.3=h8ffe710_0
-sympy=1.5.1=py36_0
-tbb=2018.0.5=he980bc4_0
-terminado=0.9.4=py36haa95532_0
-testpath=0.4.4=pyhd3eb1b0_0
-tiledb=1.6.3=h7b000aa_0
-tk=8.6.10=he774522_0
-toml=0.10.2=pyhd3eb1b0_0
-tornado=6.1=py36h2bbff1b_0
-traitlets=4.3.3=py36_0
-typing_extensions=3.7.4.3=pyha847dfd_0
-urllib3=1.26.4=pyhd3eb1b0_0
-vc=14.2=hb210afc_4
-vs2015_runtime=14.28.29325=h5e1d092_4
-wcwidth=0.2.5=py_0
-webencodings=0.5.1=py36_1
-wheel=0.36.2=pyhd3deb0d_0
-widgetsnbextension=3.5.1=py36_0
-win_inet_pton=1.1.0=py36haa95532_0
-wincertstore=0.2=py36ha15d459_1006
-winkerberos=0.7.0=py36_1
-winpty=0.4.3=4
-x86cpu=0.4=py36_1
-xarray=0.15.1=py_0
-xerces-c=3.2.3=ha925a31_0
-xeus=0.23.2=3
-xlrd=1.2.0=py36_0
-xlwt=1.3.0=py36h1a4751e_0
-xtl=0.6.5=1
-xz=5.2.5=h62dcd97_0
-zeromq=4.3.2=2
-zipp=3.4.1=pyhd3eb1b0_0
-zlib=1.2.11=h62dcd97_1010
-zstd=1.3.7=h508b16e_0
+arcgis==1.8.1
+argon2-cffi @ file:///C:/ci/argon2-cffi_1613037829118/work
+asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
+atomicwrites==1.4.0
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+bleach @ file:///tmp/build/80754af9/bleach_1612211392645/work
+blinker==1.4
+brotlipy==0.7.0
+certifi==2020.12.5
+cffi @ file:///C:/ci/cffi_1613247269562/work
+cftime==1.0.0b1
+chardet @ file:///C:/ci/chardet_1607706912142/work
+click @ file:///home/linux1/recipes/ci/click_1610990599742/work
+click-plugins==1.1.1
+cligj==0.7.1
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+cryptography==2.8
+cycler==0.10.0
+decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+despatch==0.1.0
+entrypoints==0.3
+et-xmlfile==1.0.1
+fastcache==1.1.0
+Fiona==1.8.13.post1
+future==0.18.2
+geopandas @ file:///home/conda/feedstock_root/build_artifacts/geopandas_1614589434390/work
+h3 @ file:///D:/bld/h3-py_1603369760769/work
+h5py==2.10.0
+html5lib @ file:///tmp/build/80754af9/html5lib_1593446221756/work
+idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
+importlib-metadata @ file:///C:/ci/importlib-metadata_1615900657848/work
+iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
+ipykernel @ file:///C:/ci/ipykernel_1596206775157/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1593446240034/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1610481889018/work
+jdcal==1.4.1
+jedi==0.16.0
+Jinja2 @ file:///tmp/build/80754af9/jinja2_1612213139570/work
+json5==0.9.4
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
+jupyter-client @ file:///C:/Users/bri11091/conda-bld/jupyter_client_1599780818163/work
+jupyter-console==6.1.0
+jupyter-core @ file:///C:/Users/bri11091/conda-bld/jupyter_core_1595863163509/work
+jupyterlab==2.0.1
+jupyterlab-server==1.1.0
+jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
+keyring==21.2.0
+kiwisolver @ file:///C:/ci/kiwisolver_1612282446297/work
+lerc @ file:///Volumes/JetDrive/virtualenv/miniconda/conda-bld/lerc_1594078116229/work
+MarkupSafe==1.1.1
+matplotlib==3.2.1
+mistune==0.8.4
+mkl-fft==1.3.0
+mkl-random==1.1.0
+mkl-service==2.3.0
+more-itertools @ file:///tmp/build/80754af9/more-itertools_1613676688952/work
+mpmath==1.2.1
+munch==2.5.0
+nbconvert==5.6.1
+nbformat @ file:///C:/Users/bri11091/conda-bld/nbformat_1600098806325/work
+netCDF4==1.5.3
+networkx @ file:///C:/apps/conda/conda-bld/networkx_1605154769425/work
+nose @ file:///tmp/build/80754af9/nose_1606773131901/work
+notebook @ file:///C:/Users/bri11091/conda-bld/notebook_1599601693431/work
+ntlm-auth==1.4.0
+numexpr @ file:///C:/ci/numexpr_1607693816249/work
+numpy==1.18.5
+oauthlib==3.1.0
+openpyxl==3.0.3
+packaging @ file:///tmp/build/80754af9/packaging_1611952188834/work
+pandas @ file:///D:/bld/pandas_1607423921518/work
+pandocfilters @ file:///C:/ci/pandocfilters_1605120535071/work
+parso @ file:///tmp/build/80754af9/parso_1617223946239/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+pluggy @ file:///C:/ci/pluggy_1615976526223/work
+pro-notebook-integration==2.5
+prometheus-client @ file:///C:/Users/bri11091/conda-bld/prometheus_client_1600199393947/work
+prompt-toolkit @ file:///home/ktietz/src/ci/prompt-toolkit_1611930248499/work
+psutil @ file:///C:/ci/psutil_1612298125479/work
+py @ file:///tmp/build/80754af9/py_1607971587848/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+Pygments @ file:///C:/Users/bri11091/conda-bld/pygments_1600123308736/work
+PyJWT==1.7.1
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pyproj @ file:///C:/ci/pyproj_1614278162874/work
+pyrsistent @ file:///C:/ci/pyrsistent_1600141799440/work
+pyshp==2.1.0
+PySocks @ file:///C:/ci/pysocks_1605305839978/work
+pytest==0.0.0
+python-dateutil==2.8.1
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1612179539967/work
+pywin32-ctypes==0.2.0
+pywinpty==0.5.7
+pyzmq @ file:///C:/Users/bri11091/conda-bld/pyzmq_1600288036950/work
+requests @ file:///tmp/build/80754af9/requests_1608241421344/work
+requests-kerberos==0.12.0
+requests-ntlm==1.1.0
+requests-oauthlib==1.3.0
+requests-toolbelt==0.9.1
+Rtree==0.9.4
+scipy @ file:///C:/ci/scipy_1597675683670/work
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
+Shapely==1.7.1
+simplegeneric==0.8.1
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+sympy==1.5.1
+terminado==0.9.4
+testpath @ file:///home/ktietz/src/ci/testpath_1611930608132/work
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+tornado @ file:///C:/ci/tornado_1606942379977/work
+traitlets==4.3.3
+typing-extensions @ file:///home/ktietz/src/ci_mi/typing_extensions_1612808209620/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1615837158687/work
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+widgetsnbextension==3.5.1
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306197271/work
+wincertstore==0.2
+winkerberos==0.7.0
+x86cpu==0.4
+xarray==0.15.1
+xlrd==1.2.0
+xlwt==1.3.0
+zipp @ file:///tmp/build/80754af9/zipp_1615904174917/work
